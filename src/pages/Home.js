@@ -1,7 +1,6 @@
 import "./home.css";
 
 import homeSvg from "../media/healthy.svg";
-import { useEffect } from "react";
 
 export default function Home() {
 
