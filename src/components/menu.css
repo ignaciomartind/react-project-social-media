@@ -1,0 +1,21 @@
+.Menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 30%;
+    border-bottom: 2px solid black;
+}
+.Menu a{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    padding: .5rem 2rem;
+    border-radius: 2px;
+}
+
+@media (max-width: 767px){
+    .Menu nav ul{
+        padding: 2rem 2rem;
+    }
+}
