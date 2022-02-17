@@ -8,7 +8,7 @@ export default function Menu() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" className={({isActive}) => isActive ? 'active' : ''}>Home</NavLink>
           </li>
           <li>
             <NavLink to="/About">About</NavLink>

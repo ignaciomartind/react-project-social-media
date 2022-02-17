@@ -13,9 +13,15 @@
     padding: .5rem 2rem;
     border-radius: 2px;
 }
-
+.Menu a:hover{
+    background-color: rgb(65, 64, 64);
+}
 @media (max-width: 767px){
     .Menu nav ul{
         padding: 2rem 2rem;
     }
+}
+.active{
+    background-color: #cce9ff!important;
+    color: black!important;
 }

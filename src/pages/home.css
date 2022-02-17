@@ -6,21 +6,19 @@
 }
 .home-hero{
     font-size: 6rem;
-    text-align: left;
+    text-align: right;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.home-hero p{
-    width: 40%;
-}
 .home .btn-lblue{
     margin-top: 5rem;
+
 }
 
 @media (max-width: 767px){
-    img{
+    .home img{
         display: none;
     }
     .home-hero{

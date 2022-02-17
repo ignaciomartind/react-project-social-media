@@ -18,7 +18,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden!important;
+  overflow: hidden !important;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -55,8 +55,30 @@ button {
 .about {
   padding: 3rem 15rem;
 }
-@media (max-width: 767px){
-  .home, .about{
+.waves-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.waves-box {
+  display: none;
+}
+@media (max-width: 767px) {
+  .home,
+  .about {
     padding: 10rem 5rem;
+  }
+  .waves-svg {
+    bottom: 50px;
+  }
+  .waves-box {
+    display: initial;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: #cce9ff;
   }
 }

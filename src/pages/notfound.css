@@ -1,0 +1,45 @@
+.not-found{
+    padding: 3rem 0;
+}
+.not-found img{
+
+    position: absolute;
+    text-align: center;
+}
+.not-found p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+@media (min-width:1441px){
+    .not-found img{
+        transform: scale(0.5);
+        bottom: 0;
+        top:-40%;
+    }
+}
+@media (min-width:2000px){
+    .not-found img{
+        transform: scale(0.5);
+        bottom: 0;
+        top:-50%;
+    }
+}
+@media (max-width:765px){
+    .not-found img{
+        bottom: 0;
+        top:30%;
+    }
+}
+@media (max-width:580px){
+    .not-found img{
+        bottom: 0;
+        top:50%;
+    }
+}
+@media (max-width:380px){
+    .not-found img{
+        bottom: 0;
+        top:60%;
+    }
+}
