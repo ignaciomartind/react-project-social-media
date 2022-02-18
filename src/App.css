@@ -13,15 +13,18 @@ html {
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
 }
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden !important;
+  overflow: scroll !important;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 button {
   outline: none!important;
@@ -70,7 +73,7 @@ button {
 }
 .waves-svg {
   position: absolute;
-  bottom: 0;
+  bottom: -100px;
   left: 0;
   right: 0;
   z-index: -1;

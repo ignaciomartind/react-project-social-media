@@ -23,7 +23,7 @@ function App() {
         <Route path='/success' element={<Success />}></Route>
         <Route path="/*" element={<NotFound />}></Route>
       </Routes>
-      <svg className="waves-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      {/* <svg className="waves-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#cce9ff"
           fillOpacity="1"
@@ -32,7 +32,7 @@ function App() {
       </svg>
       <div className="waves-box">
 
-      </div>
+      </div> */}
     </BrowserRouter>
   );
 }
