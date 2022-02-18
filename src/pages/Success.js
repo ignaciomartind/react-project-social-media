@@ -12,7 +12,7 @@ export default function Succcess(){
         setTimeout(() => {
             handleNavigate()
         }, 2500);
-    }, [])
+    },)
 
     return <div className="success">
         <p>Completado!</p>

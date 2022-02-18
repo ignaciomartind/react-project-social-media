@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="home-hero">
-        <img src={homeSvg} alt="home svg" />
+        <img src={homeSvg} alt="home" />
         <div className="home-hero-right">
           <p>Descubrí personas alrededor tuyo.</p>
           <button className="btn-lblue" onClick={handleClick}>Ingresá</button>

@@ -6,12 +6,12 @@ export default function About(){
 
     return <div className="about">
         <div className='about-first'>
-            <img src={aboutSVG} alt='about image'></img>
+            <img src={aboutSVG} alt='about'></img>
             <p>Trabajá con otras personas.</p>
         </div>
         <div className='about-second'>
             <p>Compartí tus ideas.</p>
-            <img src={aboutSVG2} alt='about image'></img>
+            <img src={aboutSVG2} alt='about'></img>
         </div>
     </div>
 
