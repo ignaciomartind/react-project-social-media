@@ -55,7 +55,7 @@ button {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .home,
-.about, .register {
+.about, .register,.user, .users {
   padding: 3rem 15rem;
   animation-name: Appearing;
   animation-duration: 1000ms;

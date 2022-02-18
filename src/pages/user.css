@@ -1,0 +1,15 @@
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.user p{
+
+    font-weight: 300;
+    font-size: 3rem;
+}
+.user-hl{
+    font-weight: bolder;
+    color: #0f548c;
+}

@@ -11,10 +11,10 @@ export default function Menu() {
             <NavLink to="/" className={({isActive}) => isActive ? 'active' : ''}>Home</NavLink>
           </li>
           <li>
-            <NavLink to="/About">About</NavLink>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <NavLink to="/User">User</NavLink>
+            <NavLink to="/user">User</NavLink>
           </li>
         </ul>
       </nav>

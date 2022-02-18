@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Register from './pages/Register'
 import NotFound from './pages/NotFound'
 import Success from './pages/Success'
+import Users from './pages/Users'
 
 import Menu from "./components/Menu";
 
@@ -18,7 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route path="/user" element={<User />}></Route>
+        <Route path="/user/*" element={<Users />}></Route>
+        <Route path="/user/:id" element={<User />}></Route>
         <Route path="/register" element={<Register/>}></Route>
         <Route path='/success' element={<Success />}></Route>
         <Route path="/*" element={<NotFound />}></Route>
