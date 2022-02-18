@@ -1,0 +1,34 @@
+.register{
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.register label p{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.register form > label{
+    display: block;
+    margin-top: 4rem;
+}
+.register label > input{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    min-width: 20vw;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 2px solid #cce9ff;
+    box-shadow: #cce9ff 5px 5px 0px;
+}
+.register label > input:focus{
+    outline: none;
+    border: 3px solid #0f548c;
+    box-shadow: #0f548c 5px 5px 0px;
+}
+.register form > input{
+    margin-top: 6rem;
+    outline: none;
+    border: none;
+}

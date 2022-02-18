@@ -24,9 +24,9 @@ body {
   justify-content: space-between;
 }
 button {
-  outline: none;
-  border: none;
-  cursor: pointer;
+  outline: none!important;
+  border: none!important;
+  cursor: pointer!important;
 }
 .btn-lblue {
   background-color: #cce9ff;
@@ -52,7 +52,7 @@ button {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .home,
-.about {
+.about, .register {
   padding: 3rem 15rem;
   animation-name: Appearing;
   animation-duration: 1000ms;
@@ -61,7 +61,7 @@ button {
 }
 @keyframes Appearing{
   from{
-    transform: translateY(30vh);
+    transform: translateY(10vh);
     opacity: 0.3;
   }
   to{
@@ -73,6 +73,7 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: -1;
 }
 .waves-box {
   display: none;

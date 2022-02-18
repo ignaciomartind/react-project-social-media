@@ -14,7 +14,7 @@
     border-radius: 2px;
 }
 .Menu a:hover{
-    background-color: rgb(65, 64, 64);
+    background-color: rgb(105, 104, 104);
 }
 @media (max-width: 767px){
     .Menu nav ul{
