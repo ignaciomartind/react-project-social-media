@@ -54,6 +54,19 @@ button {
 .home,
 .about {
   padding: 3rem 15rem;
+  animation-name: Appearing;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+  will-change: transform, opacity;
+}
+@keyframes Appearing{
+  from{
+    transform: translateY(30vh);
+    opacity: 0.3;
+  }
+  to{
+    transform: translateY(0);
+  }
 }
 .waves-svg {
   position: absolute;
